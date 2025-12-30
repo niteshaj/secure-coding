@@ -17,7 +17,7 @@ SIEM is a security solution that **collects, normalizes, correlates, and analyze
 
    * Prebuilt reports for standards like ISO 27001, PCI-DSS, SOX, HIPAA.
 
-## 4. SIEM architecture (logical view)
+## SIEM architecture (logical view)
 
 ```
 [ Systems / Apps / Cloud / Network devices/ IAM (AD, Entra ID, Keycloak) ]
