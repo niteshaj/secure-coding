@@ -39,7 +39,7 @@ Vulnerabilities  →  CWE  →  Secure Coding Standards  →  OWASP (Web/API foc
 | **A07: Identification & Auth Failures**     | MFA, token lifecycle, session mgmt             |
 | **A08: Software & Data Integrity Failures** | SBOM, signed artifacts, CI/CD security         |
 | **A09: Logging & Monitoring Failures**      | Central logging, alerting, SIEM                |
-| **A10: SSRF**                               | Network segmentation, allowlists               |
+| **A10: SSRF** (Server-Side Request Forgery) | Network segmentation, allowlists, input validation |
 
 👉 **Architect takeaway**:
 OWASP answers **“How will this system be attacked?”**
