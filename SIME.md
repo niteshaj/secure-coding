@@ -7,13 +7,18 @@ SIEM is a security solution that **collects, normalizes, correlates, and analyze
 1. **Log Collection & Normalization**
 
    * Ingests logs from servers, applications, databases, firewalls, IAM, cloud services, etc.
-2. **Correlation & Detection**
+
+2. **Normalization**
+
+   * Different systems log differently. SIEM normalizes them into a common format:
+
+3. **Correlation & Detection**
 
    * Applies rules, signatures, and analytics to identify suspicious patterns (e.g., brute force, lateral movement).
-3. **Alerting & Incident Response**
+4. **Alerting & Incident Response**
 
    * Generates alerts and supports investigations with timelines and context.
-4. **Compliance & Reporting**
+5. **Compliance & Reporting**
 
    * Prebuilt reports for standards like ISO 27001, PCI-DSS, SOX, HIPAA.
 
@@ -32,13 +37,6 @@ SIEM is a security solution that **collects, normalizes, correlates, and analyze
           ↓
    SOC / Incident Response
 ```
-
-### Typical Data Sources
-
-* OS & application logs
-* Network devices (firewalls, IDS/IPS)
-* IAM (AD, Entra ID, Keycloak)
-* Cloud logs (AWS CloudTrail, Azure Activity Logs)
 
 ### Benefits
 
