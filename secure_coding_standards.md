@@ -181,10 +181,15 @@ Use this **3-question loop**:
 For a modern Java / cloud system:
 
 ✔ Threat Dragon (design)
+
 ✔ ASVS (architecture checklist)
+
 ✔ Semgrep or SonarQube (code)
+
 ✔ Dependency-Check (build)
+
 ✔ Trivy (containers & prod)
+
 ✔ OWASP ZAP (pre-prod testing)
 
 ---
