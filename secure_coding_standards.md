@@ -135,9 +135,13 @@ Vulnerabilities answer **“What can be exploited right now?”**
 ### Secure Architecture Checklist
 
 ✔ Threat modeling using **OWASP Top 10**
+
 ✔ Design controls mapped to **CWE categories**
+
 ✔ Coding standards based on **SEI CERT**
+
 ✔ Dependency scanning for **CVEs**
+
 ✔ CI/CD security gates (SAST, DAST, SCA)
 
 ---
