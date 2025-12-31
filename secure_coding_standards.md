@@ -155,11 +155,45 @@ Use this **3-question loop**:
 3. **How do we prevent it?** → CERT + Architecture
 4. **What is already broken?** → CVE
 
+
+### Full Loop Summary (Architect Thinking)
+
+| Question                | Answer                                |
+| ----------------------- | ------------------------------------- |
+| What can go wrong?      | SQL Injection (OWASP A03)             |
+| Why would it go wrong?  | Improper input handling (CWE-89)      |
+| How do we prevent it?   | CERT secure coding + ORM + validation |
+| What is already broken? | CVEs in frameworks or libraries       |
+
 ---
 
-## 8. What You Should Be Able to Say as an Architect
+## 8. Architect-Level Tool Mapping
+
+| Question                | Standard    | Tools                   |
+| ----------------------- | ----------- | ----------------------- |
+| What can go wrong?      | OWASP       | ZAP, Threat Dragon      |
+| Why would it go wrong?  | CWE         | Semgrep, SpotBugs       |
+| How to prevent it?      | CERT + Arch | SonarQube, ASVS         |
+| What is already broken? | CVE         | Trivy, Dependency-Check |
+
+### Recommended Minimum Toolchain
+
+For a modern Java / cloud system:
+
+✔ Threat Dragon (design)
+✔ ASVS (architecture checklist)
+✔ Semgrep or SonarQube (code)
+✔ Dependency-Check (build)
+✔ Trivy (containers & prod)
+✔ OWASP ZAP (pre-prod testing)
+
+---
+
+## 9. What You Should Be Able to Say as an Architect
 
 > “We use OWASP for threat modeling, map risks to CWE for root cause analysis, enforce SEI CERT coding standards per language, and continuously monitor CVEs through SCA tools. Security is designed, not patched.”
+
+> “We use OWASP tools to identify threats, CWE-mapped SAST to find root causes, CERT-aligned analysis to enforce secure coding, and CVE scanners to eliminate known vulnerabilities before production.”
 
 ---
 
